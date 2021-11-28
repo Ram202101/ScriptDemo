@@ -1,0 +1,17 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,SearchByBatchID:URL,,
+2,Browser,Wait for [<Data>] milli seconds,pause,@3500,,
+3,EAgro_Username,Press  key [<Data>](android),Set,SearchByBatchID:Username,,EAgro Home Page
+4,EAgro_Password,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,SearchByBatchID:Password,,EAgro Home Page
+5,EAgro_Login,"Click the [<Object>] ",Click,,,EAgro Home Page
+6,Browser,Wait for [<Data>] milli seconds,pause,@3000,,
+7,EAgro_Welcome,Verify if [<Object>] element is present,verifyElementPresent,,,EAgro Home Page
+8,EAgro_Crop_Batches,"Click the [<Object>] ",Click,,,EAgro Crop Batches
+9,Browser,Wait for [<Data>] milli seconds,pause,@3000,,
+10,EAgro_Common_Search,"Click the [<Object>] ",Click,,,EAgro Crop Batches
+11,Browser,Wait for [<Data>] milli seconds,pause,@2000,,
+12,EAgro_Common_Search,Select all options from a select Element [<Object>],Set,@203,,EAgro Crop Batches
+13,Browser,Wait for [<Data>] milli seconds,pause,@2000,,
+14,EAgro_Search_Button,"Click the [<Object>] ",Click,,,EAgro Crop Batches
+15,Browser,Wait for [<Data>] milli seconds,pause,@2000,,
+16,EAgro_Result_Maize,Verify if [<Object>] element is present,verifyElementPresent,,,EAgro Crop Batches
