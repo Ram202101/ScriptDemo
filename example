@@ -2,9 +2,9 @@
     "quiz": {
         "sport": {
             "q1": {
-                "question": "Which one is correct team name in NBA?",
+                "question": "Which one is correct team name in Pune?",
                 "options": [
-                    "Branch02",
+                    "Branch01",
                     "Los Angeles Kings",
                     "Golden State Warriros",
                     "Huston Rocket"
@@ -31,7 +31,8 @@
                     "3",
                     "4"
                 ],
-                "Branch02": "4"
+                "Branch01": "4"
+
             }
         }
     }
